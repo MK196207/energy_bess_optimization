@@ -1,0 +1,37 @@
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter & IDEs
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
+
+# Data & Output (optional: un-comment if large datasets shouldn't be tracked)
+# data/raw/*.csv
+# data/processed/*.csv
+data/results/*
+!data/results/.gitkeep
+
+# C++ Build artifacts
+cpp_solver/build/
+cpp_solver/bin/
+*.o
+*.obj
